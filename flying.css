@@ -3,29 +3,19 @@ html {
     height: 100%;
 }
 
-body {
+/*body {
 	background-image: linear-gradient(to right, rgb(211, 248, 255), white);
 	font-family: Roboto;
 	font-style: italic;
 	height: 100%;
     overflow: auto;
-}
+}*/
 
 h1 {
-	color: rgb(21, 31, 112);
+	color: rgb(111, 30, 252);
 	text-decoration: underline;
-	text-align: center;
-	text-shadow: 2px 2px lightgray;
-}
+	text-align:center;
 
-h1:hover {
-	transform: scale(1.05);
-	color: black;
-}
-
-h3 {
-	color: rgb(21, 31, 112);
-	padding: 25px 25px 25px 25px;
 }
 
 #plane1 {
@@ -44,23 +34,7 @@ h3 {
 	color: rgb(99, 181, 0);
 }
 
-
-#youtubeSong {
-	padding-top: 25px;
-}
-.planeTitle {
-	font-size: 10px;
-	color: gray;
-
-}
-hr {
-	margin-top: 50px;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
 div {
-	font-size: 150%;
-	padding: 25px 0 25px 10px;
+	padding-top: 25px;
+	background-color: red;
 }
