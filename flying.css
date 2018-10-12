@@ -14,13 +14,18 @@ body {
 h1 {
 	color: rgb(21, 31, 112);
 	text-decoration: underline;
-	text-align:center;
+	text-align: center;
 	text-shadow: 2px 2px lightgray;
 }
 
 h1:hover {
 	transform: scale(1.05);
 	color: black;
+}
+
+h3 {
+	color: rgb(21, 31, 112);
+	padding: 25px 25px 25px 25px;
 }
 
 #plane1 {
@@ -56,7 +61,6 @@ hr {
 }
 
 div {
-	padding-top: 25px;
 	font-size: 150%;
-	padding-left: 25px;
+	padding: 25px 0 25px 10px;
 }
