@@ -8,14 +8,19 @@ body {
 	font-family: Roboto;
 	font-style: italic;
 	height: 100%;
-	overflow: auto;
+    overflow: auto;
 }
 
 h1 {
-	color: rgb(111, 30, 252);
+	color: rgb(21, 31, 112);
 	text-decoration: underline;
 	text-align:center;
+	text-shadow: 2px 2px lightgray;
+}
 
+h1:hover {
+	transform: scale(1.05);
+	color: black;
 }
 
 #plane1 {
@@ -34,12 +39,17 @@ h1 {
 	color: rgb(99, 181, 0);
 }
 
+
 #youtubeSong {
 	padding-top: 25px;
 }
+.planeTitle {
+	font-size: 10px;
+	color: gray;
 
+}
 hr {
-    margin-top: 50px;
+	margin-top: 50px;
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
@@ -47,4 +57,6 @@ hr {
 
 div {
 	padding-top: 25px;
+	font-size: 150%;
+	padding-left: 25px;
 }
