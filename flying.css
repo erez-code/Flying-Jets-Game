@@ -1,0 +1,39 @@
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+	background-image: linear-gradient(to right, rgb(211, 248, 255), white);
+	font-family: Roboto;
+	font-style: italic;
+	height: 100%;
+    overflow: auto;
+}
+
+h1 {
+	color: rgb(111, 30, 252);
+	text-decoration: underline;
+	text-align:center;
+
+}
+
+#plane1 {
+	color: rgb(181, 51, 0);
+}
+
+#plane2 {
+	color: rgb(111, 30, 252);
+}
+
+#plane3 {
+	color: rgb(10, 214, 170);
+}
+
+#plane4 {
+	color: rgb(99, 181, 0);
+}
+
+div {
+	padding-top: 25px;
+}
